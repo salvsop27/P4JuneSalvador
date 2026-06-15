@@ -6,15 +6,15 @@ export const siteConfig = {
     "A great place to buy time machines at ridiculous prices! Obviously this is example text. Write a description of what your site is / what it does.",
   navItems: [
     {
-      label: "Home",
+      label: "Home Screen",
       href: "/",
     },
     {
-      label: "Docs",
+      label: "Fun Buttons",
       href: "/docs",
     },
     {
-      label: "Pricing",
+      label: "Pictures",
       href: "/pricing",
     },
     {

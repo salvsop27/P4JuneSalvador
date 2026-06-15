@@ -48,7 +48,7 @@ export default function ConfettiButton() {
       variant="shadow"
       onPress={fireConfetti}
     >
-      Celebrate!
+      Wow!!
     </Button>
   );
 }

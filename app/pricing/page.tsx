@@ -19,9 +19,9 @@ export default function PricingPage() {
 
   return (
     <div>
-      <h1 className={title()}>Pricing</h1>
+      <h1 className={title()}></h1>
 
-      <p>Pricing? Boring!</p>
+      <p></p>
 
       <section className="mt-20">
         <h2 className="text-center text-4xl font-bold">Example Plans</h2>

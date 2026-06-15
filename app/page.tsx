@@ -17,14 +17,15 @@ export default function Home() {
   };
 
   return (
+    <>
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       <div className="inline-block max-w-xl text-center justify-center">
-        <span className={title()}>Discount&nbsp;</span>
-        <span className={title({ color: "violet" })}>Time Machine&nbsp;</span>
+        
+        <span className={title({ color: "pink" })}>Sophie's Website&nbsp;</span>
         <br />
-        <span className={title()}>Wholesale</span>
+        <span className={title()}></span>
         <div className={subtitle({ class: "mt-4" })}>
-          A project template for YOU to make your own!
+          By Sophie Salvador
         </div>
       </div>
 
@@ -41,10 +42,12 @@ export default function Home() {
       <div className="mt-8">
         <Snippet hideCopyButton hideSymbol variant="bordered">
           <span>
-            Get started by editing <Code color="primary">app/page.tsx</Code>
+            
           </span>
         </Snippet>
       </div>
     </section>
+    <img src="" alt="" />
+    </>
   );
 }

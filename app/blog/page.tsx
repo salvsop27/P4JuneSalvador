@@ -22,7 +22,7 @@ export default function BlogPage() {
         className="p-4 w-full"
         onPress={() => {
           addToast({
-            title: "Hey!",
+            title: "Helo",
             description:
               "This doesn't link anywhere. But you can make it so it does!",
             color: "danger",
@@ -48,13 +48,13 @@ export default function BlogPage() {
       <div className="mt-20 flex flex-col gap-6">
         <Post
           date={new Date("2025-02-26")}
-          description="An example post. You could do some cool stuff with this. This is a good example of using custom components within the same page."
-          title="Example 1"
+          description="Hello Hello"
+          title="?"
         />
         <Post
           date={new Date("2025-01-15")}
-          description="Time machine sales are down! Demand decreases as AI take over."
-          title="Time Machine Sales Statistics"
+          description="Goodbye Goodbye"
+          title="?"
         />
       </div>
     </div>
