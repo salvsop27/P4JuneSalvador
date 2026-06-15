@@ -47,9 +47,7 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3 bg-foreground">
-              <div className="text-background">
-                Period 4 Website Design
-              </div>
+              <div className="text-background">Period 4 Website Design</div>
             </footer>
           </div>
         </Providers>

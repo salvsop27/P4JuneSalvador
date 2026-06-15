@@ -8,7 +8,7 @@ export default function DocsPage() {
 
       <div className="my-20">
         <span className="text-2xl mr-6">press these fun buttons</span>{" "}
-        <span className="text-xs"></span>
+        <span className="text-xs" />
       </div>
 
       <div className="flex gap-4">

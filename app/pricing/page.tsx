@@ -5,8 +5,6 @@ import { Card, CardHeader, CardBody, CardFooter } from "@heroui/card";
 import { addToast } from "@heroui/toast";
 import { Accordion, AccordionItem } from "@heroui/react";
 
-import { title } from "@/components/primitives";
-
 export default function PricingPage() {
   const thisDoesNothingToast = () => {
     addToast({
@@ -19,9 +17,7 @@ export default function PricingPage() {
 
   return (
     <div>
-      <h1 className={title()}></h1>
-
-      <p></p>
+      <p />
 
       <section className="mt-20">
         <h2 className="text-center text-4xl font-bold">Example Plans</h2>
